@@ -1,0 +1,30 @@
+.button {
+    padding: 7.5px; 
+    background-color: rgb(93, 93, 93); 
+    border-radius: 10px; 
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2.5px solid rgb(42, 42, 42);
+    transition: padding 0.25s ease-in-out, font-size 0.25s ease-in-out,border 0.25s ease-in-out;
+}
+.button:hover {
+    padding: 10px;
+    font-size: 20px;
+    border: 5px solid rgb(42, 42, 42);
+}
+
+.secretdiv {
+    background-color: rgb(10, 10, 10);
+    color: rgb(10, 10, 10);
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 250px;
+    transition: background-color 1s ease-in, color 1s ease-in;
+}
+
+.secretdiv:hover {
+    background-color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+}
