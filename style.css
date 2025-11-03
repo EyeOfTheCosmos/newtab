@@ -1,30 +1,41 @@
-.button {
-    padding: 7.5px; 
-    background-color: rgb(93, 93, 93); 
-    border-radius: 10px; 
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 2.5px solid rgb(42, 42, 42);
-    transition: padding 0.25s ease-in-out, font-size 0.25s ease-in-out,border 0.25s ease-in-out;
-}
-.button:hover {
-    padding: 10px;
-    font-size: 20px;
-    border: 5px solid rgb(42, 42, 42);
-}
-
-.secretdiv {
-    background-color: rgb(10, 10, 10);
-    color: rgb(10, 10, 10);
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-    margin: auto;
-    margin-top: 250px;
-    transition: background-color 1s ease-in, color 1s ease-in;
-}
-
-.secretdiv:hover {
-    background-color: rgb(100, 100, 100);
-    color: rgb(255, 255, 255);
-}
+body {
+      font-family: Arial, sans-serif;
+      max-width: 400px;
+      margin: 50px auto;
+      background: #2e2e2e;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    h1 { text-align: center; }
+    input {
+      width: 70%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 8px 12px;
+      border: none;
+      background: #4CAF50;
+      color: rgb(67, 67, 67);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    ul { list-style: none; padding: 0; }
+    li {
+      background: rgb(54, 54, 54);
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li.completed {
+      text-decoration: line-through;
+      color: gray;
+    }
