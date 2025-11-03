@@ -1,0 +1,14 @@
+<script src="note.js"></script>
+<link rel="stylesheet" href="style.css">
+<a href="index.html"><button style="z-index: 1; position: absolute; top:10px; left:10px;">Home</button></a>
+<script>window.onload = loadNote</script>
+<body>
+    <h1>Notes</h1>
+    <div style="text-align: left; padding:10px; background-color: rgb(21, 21, 21); border-radius: 10px;">
+    <p id="noteText"> </p>
+    <input type="text" id="noteInput" placeholder="Edit..." hidden="true"/>
+    <button id="done" hidden>Done</button>
+    <button onclick="editNote()" id="edit">Edit Note</button>
+    <button onclick="clearNote()">Clear Note</button>
+    </div>
+</body>
