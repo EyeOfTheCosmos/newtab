@@ -2,11 +2,11 @@ body {
       font-family: Arial, sans-serif;
       max-width: 75%;
       margin: 25px auto;
-      background: #171717;
+      background: #ffc2ff;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      color:white;
+      box-shadow: 0 0 10px rgba(255, 0, 195, 0.5);
+      color:rgb(255, 73, 237);
     }
 body.todo{
   max-width: 400px;
@@ -20,15 +20,15 @@ div{
     input {
       width: 70%;
       padding: 8px;
-      border: 1px solid #333333;
+      border: 1px solid #ff46f3;
       border-radius: 5px;
-      background: #333333;
+      background: #ff46f3;
       color:white;
     }
     button{
       padding:8px 12px;
       border:none;
-      background: #333333;
+      background: #f78bff;
       color: white;
       border-radius: 5px;
       cursor: pointer;
@@ -38,17 +38,17 @@ div{
     button.task {
       padding: 8px 12px;
       border: none;
-      background: #285e2a;
-      color: rgb(232, 232, 232);
+      background: #96ff9a;
+      color: rgb(0, 0, 0);
       border-radius: 5px;
       cursor: pointer;
     }
     button.task:hover {
-      background: #265828;
+      background: rgb(106, 237, 110);
     }
     ul { list-style: none; padding: 0; }
     li {
-      background: rgb(54, 54, 54);
+      background: rgb(255, 100, 214);
       margin: 8px 0;
       padding: 10px;
       border-radius: 5px;
@@ -63,18 +63,5 @@ div{
     }
   div.note{
     color:white;
-    background-color: #525252;
+    background-color: #bebebe;
   }
-#greek-word{
-  background-color: #242424;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 10px;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  cursor: pointer;
-}
