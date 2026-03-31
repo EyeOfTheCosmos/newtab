@@ -6,7 +6,7 @@ body {
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 0 10px #ffd9df;
-      color:#ffd9df;
+      color:#ffa7b6;
     }
 body.todo{
   max-width: 400px;
@@ -28,7 +28,7 @@ div{
     button{
       padding:8px 12px;
       border:none;
-      background: #ffd9df;
+      background: #ffa7b6;
       color: white;
       border-radius: 5px;
       cursor: pointer;
